@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1d8e0;
+    color: aliceblue;
+    animation: playbtn 20s  infinite;
+}
+@keyframes playbtn{
+    0%{
+        background: #ff7979;
+    }
+    25%{
+        background: #e056fd;
+    }
+    50%{
+        background: rgba(209, 204, 192,);
+    }
+    75%{
+        background: #ced6e0;
+    }
+    100%{
+        background: rgba(51, 217, 178,1.0);
+    }
+}
+.full-web {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* =====================Header Section============= */
+.header {
+    background: #575fcf;
+    text-align: center;
+   
+}
+
+
+.header img {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 53px;
+    vertical-align: middle;
+    text-shadow: 5px 5px 15px red;
+    
+    font-family: 'Nosifer', cursive;
+}
+
+/* ===============Owners Section=================== */
+.oners {
+    text-align: center; 
+    padding: 150px 0 ;
+}
+
+/* ==============Owner 1============ */
+.oner-1 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.oner-1-img img {
+    width: 300px;
+    border-radius: 50%;
+    transition: .9s;
+}
+
+.oner-1-img img:hover {
+    transform: scale(.9);
+}
+
+.oner-1-img {
+    position: relative;
+    width: 400px;
+    margin: auto;
+}
+
+.oner-1 {
+    position: relative;
+
+}
+
+.sociel {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 214px;
+}
+
+.txt h2 {
+    margin: 9px 0;
+}
+
+/* ===============hover=================== */
+.txt h1 {
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    width: 0;
+    height: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+}
+
+.oner-1:hover .txt h1 {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.txt h3 {
+    position: absolute;
+    top: 33%;
+    left: 46%;
+    width: 0;
+    height: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.6s;
+}
+
+.oner-1:hover .txt h3 {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.txt h2 {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    width: 0;
+    height: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+}
+
+.oner-1:hover .txt h2 {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.txt .mane {
+    position: absolute;
+    top: 64%;
+    left: 32%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s; 
+}
+
+.oner-1:hover .mane {
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+}
+
+.oner-1:hover .mane li {
+    background: none;
+}
+
+.txt a {
+    position: absolute;
+    top: 54%;
+    left: 37%;
+    width: 0;
+    height: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+}
+
+.oner-1:hover .txt a {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ==============Owner 2============ */
+.teachers {
+    display: flex;
+}
+
+.oner-2 {
+    width: 50%;
+
+}
+
+.oner-2-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: .9s;
+}
+
+.oner-2-img img:hover {
+    transform: scale(.9);
+}
+
+/* ==============Owner 3============ */
+.oner-3 {
+    width: 50%;
+
+}
+
+.oner-3-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: .9s;
+}
+
+.oner-3-img img:hover {
+    transform: scale(.9);
+}
+
+/* ==================Form Section */
+
+.form {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.frm {
+    margin: 10px 0;
+    border-radius: 16px;
+    border: 1px solid #512a42;
+    outline: none;
+
+    padding: 8px 29px;
+}
+
+/* ================= All Saction ============== */
+.every {
+    width: 33%;
+    margin: auto;
+    display: inline-block;
+}
+
+.back {
+    width: 250px;
+    height: 250px;
+    background-color: #8620e6;
+    left: 10%;
+    top: 10%;
+    box-shadow: 0 10px 8px 2px #666;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.full-web {
+    position: relative;
+}
+
+.front {
+    width: 210px;
+    height: 100%;
+    /* position: absolute;
+    top: 0; 
+    left: 40px; */
+    background-color: #6b0fc2;
+    -moz-transition: all linear .5s;
+    transition: all linear .5s;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    margin-left: 40px;
+      
+
+}
+
+.back:hover .front {
+    transform: rotateY(-180deg);
+    /* -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg); */
+    box-shadow: 0 10px 8px 2px #666;
+}
+
+.flip_img {
+    position: relative;
+}
+
+.flip_img::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.flip_img {
+    position: relative;
+}
+
+.flip_img::before {
+    content: "tanjil bhuiyan";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: 2;
+    font-family: 'Tangerine', cursive;
+}
+
+.back:hover .flip_img::before {
+    content: "";
+
+}
+
+.flip_img img {
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
+}
+
+.flip_text {
+    position: absolute;
+    margin-left: 70px;
+    width: 150px;
+}
+
+.flip_text h2 {
+    color: aliceblue;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'MonteCarlo', cursive;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.flip_text p {
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+.flip_text p span a {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px 8px;
+    border: 1px solid #02fbfb;
+    border-radius: 3px;
+    -moz-transition: all linear .3s;
+    text-decoration: none;
+}
+
+.flip_text p span a:hover {
+    background-color: #6b0fc2;
+    border: 1px solid #6b0fc2;
+    cursor: pointer;
+}
+
+.batch {
+
+    margin-top: -59px;
+    color: #fff;
+}
+
+.batch-2 {
+    font-family: 'Nosifer', cursive;
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 20px;
+    color: blue;
+    text-shadow: 2px 2px #fff;
+}
+
+.batch-1 {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 21px;
+    color: #fff;
+    margin-left: -20px;
+    margin-bottom: -11px;
+}
+
+.back:hover .batch {
+    visibility: hidden;
+    opacity: 0;
+    transition: .9s;
+}
+
+/* =========menu============ */
+.menu {
+    display: flex;
+    margin-top: 30px;
+}
+
+ul.mane {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul.mane li {
+    position: relative;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: 0 13px;
+    transform: rotate(-30deg) skew(25deg);
+    background: #ccc;
+}
+
+ul.mane li a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+ul li:hover span:nth-child(4) {
+    transform: translate(27px, -27px);
+    opacity: 1;
+}
+
+ul li:hover span:nth-child(3) {
+    transform: translate(17px, -17px);
+    opacity: .7;
+}
+
+ul li:hover span:nth-child(2) {
+    transform: translate(7px, -7px);
+    opacity: .5;
+}
+
+ul li:hover span:nth-child(1) {
+    transform: translate(0, 0);
+    opacity: .3;
+}
+
+ul.mane li:nth-child(1) span {
+    background: #3b5999;
+}
+
+ul.mane li:nth-child(2) span {
+    background: #e4405f;
+}
+
+ul.mane li:nth-child(3) span {
+
+    background: #55acee;
+}
+
+/* ul.mane li a {
+	font-size: 24px;
+	color: #fff;
+	padding: 5px 13px;
+} */
+.back {
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 0;
+    left: 12px;
+}
+
+.img img {
+    height: 100%;
+    opacity: .3;
+}
+
+.span-1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.span-1 i {
+
+    font-size: 30px;
+    color: red;
+}
+
+.span-2 {}
+
+.span-2 i {
+
+    font-size: 29px;
+    margin-top: 13px;
+    color: #fd5bbf;
+}
